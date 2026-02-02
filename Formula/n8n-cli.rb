@@ -2,7 +2,7 @@ class N8nCli < Formula
   desc "Command-line interface for managing n8n workflows"
   homepage "https://github.com/ariadng/n8n-cli"
   version "0.2.0"
-  license "MIT"
+  license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
